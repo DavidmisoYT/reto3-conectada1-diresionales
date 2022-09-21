@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Z4R5FO//M59P@GRFpL`=" x="0" y="0"></block><block type="device_forever" id="=.[aE}z.-3?5{-HFOx,7" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="L_?ETX1Vs9pxLg.mW~R("><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="7sGvd]obPcF3wE`Ql?-}"><field name="NAME">Button.AB</field></block></value><statement name="DO0"><block type="device_show_leds" id=")iOrJ9+)$oaDG,r!,8A;"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="s}+CPC5j[(3l[}$z8tF3"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="7`3xM|Gp=Ai)J)SVU39k"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="vDK_=5s/5XbPAuqRh[*d"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="-,OK4J?|++f$Dwn3(foV"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="}49qz.1$`F^(YE`:!v@%"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="device_show_leds" id="XBW@YdU?/vF)(araQY0B"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="cblhf:P6FX9ns1uA{}H["><field name="i">IconNames.Happy</field></block></statement></block></statement></block></statement></block></statement></block></xml>
